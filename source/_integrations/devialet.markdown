@@ -32,9 +32,9 @@ The `devialet` integration allows you to control your [Devialet](https://www.dev
 
 Known supported devices:
 
-- Phantom I Silver
-- Phantom Reactor
+- Phantom I
+- Phantom II
 
 ## Turning off the device
 
-The media player `turn off`  button and service `media_player.turn_off` will turn off the Devialet device. Please notice: after turning the device off from Home Assistant, the physical button on the device should be pressed in order to turn it on again.
+The media player `turn off`  button and service `media_player.turn_off` will turn off all the devices of the designated system.. Exiting OFF mode is only possible by pressing a physical button on each device.
